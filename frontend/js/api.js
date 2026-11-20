@@ -1,5 +1,5 @@
-const API_BASE_URL = 'http://localhost:5000/api';
-const UPLOADS_BASE_URL = 'http://localhost:5000/uploads';
+const API_BASE_URL = 'https://futsalzone-ecommerce.vercel.app/api';
+const UPLOADS_BASE_URL = 'https://futsalzone-ecommerce.vercel.app/uploads';
 
 const AuthStorage = {
   // Sesi Customer
