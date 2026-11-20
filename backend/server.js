@@ -21,6 +21,10 @@ app.get('/', (req, res) => {
   res.json({ message: 'API Server FUTSALZONE berjalan aktif.' });
 });
 
-app.listen(PORT, () => {
-  console.log(`Server FUTSALZONE berjalan di port ${PORT}`);
-});
+if (require.main === module) {
+  app.listen(PORT, () => {
+    console.log(`Server FUTSALZONE berjalan di port ${PORT}`);
+  });
+}
+
+module.exports = app;
